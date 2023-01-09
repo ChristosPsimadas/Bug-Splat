@@ -1,0 +1,35 @@
+.bug{
+    width: 100px;
+
+    position:absolute;
+}
+
+body {
+    background-image: url("bg.jpg");
+    min-height: 100%;
+    min-width: 100%;
+    background-size: auto auto;
+    background-position-x: center;
+}
+
+.textBox{
+    padding-bottom: 10%;
+    margin: auto;
+    margin-top: -3%;
+    width: 50%;
+    padding-top: 0%;
+    text-align: center;
+
+    background-image: url("box.png");
+    background-size: 80% 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+
+#text{
+    padding-top: 6%;
+    font-family: 'VT323', monospace;
+    font-size: 500%;
+    color: lightblue;
+}
